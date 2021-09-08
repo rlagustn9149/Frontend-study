@@ -9,6 +9,8 @@
 3. li /li => 리스트 태그, ul /ul => 목록 태그(그룹핑), ol /ol  => 순서가 있는 목록 태그
 4. title ... /title 페이지 창의 이름,  meta charset="utf-8"  => 글자가 깨질시
 5. (HEAD 태크=나머지 내용,  Body 태그=본문의 내용  )=> HTML
+6. DOCTYPE = 문서 형식 선언 ex) !DOCTYPE HTML  
+
 ## CSS
 
 ## Javascript
