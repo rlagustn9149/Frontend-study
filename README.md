@@ -15,7 +15,6 @@
 9. table 태그 (표)  table => tr(행) => tb(열) , border = 테두리 외곽선 <br>
 thead = 테이블의 헤드, tbody = 테이블의 바디 , tb ==> th로 바꿀시 진한글로 써짐<br>
 tfoot = 표 가장 아래쪽에 존재 <br>
-
 rowspan => 여러개의 행을 병합, colspan => 여러개의 col을 병합 
 
 
