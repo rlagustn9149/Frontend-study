@@ -15,10 +15,26 @@
 9. table 태그 (표)  table => tr(행) => tb(열) , border = 테두리 외곽선 <br>
 thead = 테이블의 헤드, tbody = 테이블의 바디 , tb ==> th로 바꿀시 진한글로 써짐<br>
 tfoot = 표 가장 아래쪽에 존재 <br>
-
 rowspan => 여러개의 행을 병합, colspan => 여러개의 col을 병합 
+10. form => 입력한 정보를 전송할 때 사용하는 방식<br>
+    form action="..." => 어디로 전송할지를 입력 <br>
+    input 태그 = 사용자의 정보를 입력받을 수 있는 태그<br>
+    type = 입력받는 형식 ex) text , password <br>
+    name = 입력받는 input 태그의 이름을 지정해줌.<br>
+    value = 기본적으로 입력되어있는 값<br> 
+    textarea = 여러줄을 입력받는 태그
+    - cols = 가로
+    - rows = 세로
+    select 태그, option 태그 => option 태그 안에있는 항목을 선택할 수 있도록 해주는 태그 <br>
+    radio 태그 => 선택할수 있는 태크, name이 같은 라디오 버튼은 한개만 선택가능 (중복 불가)<br>
+    checkbox 태그 => 다중 선택 가능<br>
+    button 태그 => html로만은 쓸 곳이 x, js로 이벤트를 만들어줘야함 <br>
+    reset => 사용자가 입력한 정보를 없애줌
 
 
+
+
+    
 ## CSS
 
 ## Javascript
