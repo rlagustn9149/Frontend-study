@@ -25,13 +25,21 @@ rowspan => 여러개의 행을 병합, colspan => 여러개의 col을 병합
     textarea = 여러줄을 입력받는 태그
     - cols = 가로
     - rows = 세로
+    
     select 태그, option 태그 => option 태그 안에있는 항목을 선택할 수 있도록 해주는 태그 <br>
     radio 태그 => 선택할수 있는 태크, name이 같은 라디오 버튼은 한개만 선택가능 (중복 불가)<br>
     checkbox 태그 => 다중 선택 가능<br>
     button 태그 => html로만은 쓸 곳이 x, js로 이벤트를 만들어줘야함 <br>
-    reset => 사용자가 입력한 정보를 없애줌
+    reset => 사용자가 입력한 정보를 없애줌<br>
+    hidden => 서버로 전송은 하지만 UI가 필요없을 때 사용
+    label => 이름표를 부여하기 위해서 사용, 레이블을 선택하면 해당 위치로 이동하게 됨<br>
+    method => get 방식(url로 데이터를 전송), post 방식(데이터를 다른곳에 숨겨서 전송), 기본 베이스는 get방식<br>
+    form태그를 이용시 post방식을 이용하는 것이 좋음. 서버 개발자와 개발인 경우 서버 개발자의 요청대로 전송<br>
+    파일 업로드 => type=file, method="post" enctype="multipart/form-data"(파일업로드시 필수)
 
-
+11. font  => size 크기, color 색상 등을 지정 =>지금은 사용하지 않음 (css로 대체)
+12. meta 태그 => html 파일의 정보를 표시할 때 사용
+13. 의미론적 태그 => article = 본문, header = 문서의 전체적인 정보, nav = 문서의 네비게이션 항목 정의 등
 
 
     
