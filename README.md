@@ -41,8 +41,8 @@ rowspan => 여러개의 행을 병합, colspan => 여러개의 col을 병합
 12. meta 태그 => html 파일의 정보를 표시할 때 사용
 13. 의미론적 태그 => article = 본문, header = 문서의 전체적인 정보, nav = 문서의 네비게이션 항목 정의 등
 
-
-    
 ## CSS
+HTML을 꾸며주는 디자인을 설정하는 문법<br>
 
+1. 여러 스타일 적용시 우선 순서 style > id > class > tag    -> !important 를 적용시 가장 높은 우선순위
 ## Javascript
