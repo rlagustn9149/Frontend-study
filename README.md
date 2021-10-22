@@ -45,4 +45,10 @@ rowspan => 여러개의 행을 병합, colspan => 여러개의 col을 병합
 HTML을 꾸며주는 디자인을 설정하는 문법<br>
 
 1. 여러 스타일 적용시 우선 순서 style > id > class > tag    -> !important 를 적용시 가장 높은 우선순위
+
+2. px vs em vs rem 
+    -   px: 크기가 고정
+    -   em, rem : 가변적으로 변경 가능  => 최근엔 rem을 사용함
+
+
 ## Javascript
