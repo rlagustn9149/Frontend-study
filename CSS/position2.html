@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent, #other{
+            border:5px solid tomato;      
+        }
+        #grand{
+            position:relative;
+            /* grand를 기준으로 하위의 자식의 위치를 정한다 */
+        }
+        #me{
+            background-color: black;
+            color:white;
+            position:absolute;
+            /* position absoulte를 사용하면 부모와의 연결이 끊어진다.  */
+            width:200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="other">other</div>
+    <div id="grand">
+        grand
+        <div id="parent">
+            parent
+            <div id="me">me</div>
+        </div>
+    </div>
+    
+</body>
+</html>
