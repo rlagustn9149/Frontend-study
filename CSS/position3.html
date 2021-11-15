@@ -1,34 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html>
+  <head>
     <style>
+        body{
+            padding-top:30px;
+        }
         #parent, #other{
-            border:5px solid tomato;      
+            border:5px solid tomato;
         }
         #large{
-            height : 10000px;
+            height:10000px;
             background-color: tomato;
         }
         #me{
             background-color: black;
             color:white;
-            position:fixed; 
-            /* position fixed는 스크롤과 상관없이 위치가 무조건 고정된다 , 부모가 없어진다. */
+            position: fixed; 
+            left:0;
+            top:0;
+            text-align: center;
         }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="other">other</div>
     <div id="parent">
-        parent
-        <div id="me">me</div>
+       parent
+       <div id="me">me</div>
     </div>
     <div id="large">large</div>
-    
-    
-</body>
+  </body>
 </html>
