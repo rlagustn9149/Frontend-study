@@ -16,7 +16,12 @@
         /* n번째에 있는 item의 자식들을 변화시킴 */
         .item:nth-child(1){   
             flex-basis: 150px;
+            
+            /* shrink 는 컨테이너의 크기가 줄어들때 크기가 줄어드는지 아닌지를 결정 */
             flex-shrink: 1;
+            
+            /* 여백의 공간을 서로 나누어서 갖음
+                flex-grow:1; */
         }
         .item:nth-child(2){
             flex-basis: 150px;
