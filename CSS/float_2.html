@@ -23,6 +23,7 @@
       width:300px;
       border-left:1px solid gray;
       border-right:1px solid gray;
+      /* 마진이 겹쳐지면서 선이 겹쳐져서 두꺼워지는 현상을 없앰 */
       margin-left:-1px;
     }
     aside{
@@ -32,6 +33,7 @@
       margin-left:-1px;
     }
     footer{
+      /* float 영향을 안받게 해줌 */
       clear:both;
       border-top:1px solid gray;
       text-align: center;
