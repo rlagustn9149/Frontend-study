@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="egoing">
+    <style>
+        div{
+            border: 5px solid gray;
+            background-color: azure;
+            
+            /* 백그라운드에 이미지 등을 넣고 싶을 때*/
+            background-image: url('gogh.png');
+            
+            /* no-repeat : 백그라운드 이미지 반복 x,  repeat-x : x축으로만 반복,  repeat-y : y축으로만 반복*/
+            background-repeat : repeat;
+
+            /* 뒤의 이미지는 fix되어 움직이지 않음*/
+            background-attachment: fixed;
+
+            /* 백그라운드 이미지의 크기를 지정*/
+            background-size: 500px 100px;
+
+            /* 이미지 위치 */
+            background-position: right top;
+        }
+    </style>
+</head>
+<body>
+   <div>
+       Hello world
+   </div>
+</body>
+</html>
